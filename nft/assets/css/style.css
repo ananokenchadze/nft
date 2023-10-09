@@ -1,0 +1,701 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b2b2b;
+}
+@font-face {
+  font-family: "WorkBold";
+  src: url(../fonts/Work_Sans/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: "WorkReg";
+  src: url(../fonts/Work_Sans/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: "WorkMed";
+  src: url(../fonts/Work_Sans/WorkSans-Medium.ttf);
+}
+@font-face {
+  font-family: "WorkLight";
+  src: url(../fonts/Work_Sans/WorkSans-Light.ttf);
+}
+@font-face {
+  font-family: "WorkSemi";
+  src: url(../fonts/Work_Sans/WorkSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "SpaceBold";
+  src: url(../fonts/Space_Mono/SpaceMono-Bold.ttf);
+}
+@font-face {
+  font-family: "SpaceReg";
+  src: url(../fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+:root {
+  --wbold: "WorkBold";
+  --wreg: "WorkReg";
+  --wmed: "WorkMed";
+  --wlight: "WorkLight";
+  --wsemi: "WorkSemi";
+  --sbold: "SpaceBold";
+  --sreg: "SpaceReg";
+}
+.main-containers {
+  width: 1050px;
+  margin: auto;
+}
+.navbar-toggler-icon {
+  background-image: url(../images/nav\ menu.png);
+  border: 0px solid #2b2b2b;
+  outline: 0px solid #2b2b2b;
+}
+.navbar-brand {
+  font-family: var(--sbold);
+  font-size: 22px;
+}
+.nav-link {
+  font-family: var(--wmed);
+}
+.mybtn {
+  background-color: #a259ff;
+  color: white;
+  width: 157px;
+  font-family: var(--wmed);
+  border: none;
+}
+.header-1 {
+  font-size: 67px;
+  font-family: var(--wsemi);
+  line-height: 73.7px;
+}
+.body-1 {
+  font-size: 22px;
+  font-family: var(--wreg);
+  line-height: 35.2px;
+}
+#right1 {
+  width: 510px;
+  height: 510px;
+  background-image: url(../images/spacewalkingBIG.png);
+  background-repeat: no-repeat;
+  background-color: #3b3b3b;
+}
+.spacewalking {
+  font-family: var(--wmed);
+  font-size: 22px;
+}
+.animalkid {
+  font-family: var(--wlight);
+  font-size: 16px;
+}
+.num {
+  font-family: var(--sbold);
+  font-size: 28px;
+}
+.undernum {
+  font-family: var(--wreg);
+  font-size: 24px;
+}
+#btn-two {
+  width: 224px !important;
+}
+.numbers {
+  width: 450px;
+}
+.header-2 {
+  font-size: 38px;
+  font-family: var(--wmed);
+}
+.body-2 {
+  font-size: 22px;
+  font-family: var(--wlight);
+}
+#container2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.boxhead {
+  font-family: var(--wmed);
+}
+.smallpic {
+  width: 100px;
+  height: 100px;
+}
+.bigpic {
+  width: 330px;
+  height: 330px;
+}
+.twobtn {
+  border: 2px solid #a259ff;
+  font-family: var(--wmed);
+}
+.face-img {
+  width: 120px;
+  height: 120px;
+}
+
+.card {
+  width: 250px;
+  height: 240px;
+  background-color: #3b3b3b;
+}
+.total-sales {
+  color: #858584;
+  font-family: var(--wlight);
+}
+.name-eth {
+  font-family: var(--wmed);
+}
+.eth-num {
+  font-family: var(--sreg);
+}
+.mybox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-number {
+  width: 30px;
+  height: 30px;
+}
+.eth {
+  display: flex;
+  flex-direction: column;
+}
+.mycard {
+  background-color: #3b3b3b;
+}
+#container5 {
+  margin-bottom: 80px;
+}
+.card-body-1 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card1.png);
+}
+.card-body-2 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card2.png);
+}
+.card-body-3 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card3.png);
+}
+.card-body-4 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card4.png);
+}
+.card-body-5 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card5.png);
+}
+.card-body-6 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card6.png);
+}
+.card-body-7 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card7.png);
+}
+.card-body-8 {
+  width: 240px;
+  height: 240px;
+  background-image: url(../images/card8.png);
+}
+#container4 {
+  overflow-x: hidden;
+}
+.thecard {
+  height: 469px;
+  width: 330px;
+  background-color: #3b3b3b;
+}
+.nft-name {
+  font-family: var(--sreg);
+}
+.price {
+  font-family: var(--sreg);
+  font-weight: 400px;
+  color: #858584;
+  font-size: 12px;
+}
+.price-2 {
+  font-family: var(--sreg);
+}
+#the-box {
+  margin-left: 30px;
+}
+#view-rankings {
+  margin-right: 50px;
+}
+#inside {
+  margin-left: 90px;
+}
+#inbox {
+  margin-left: 90px;
+  padding-right: 170px;
+}
+#trends {
+  margin-left: 40px;
+}
+#howit {
+  margin-left: 30px;
+}
+#container6 {
+  height: 640px;
+  overflow-x: hidden;
+  background-image: url(../images/bg-mush.png);
+  background-repeat: no-repeat;
+  margin-bottom: 84px;
+  background-size: cover;
+}
+.shroom-left {
+  margin-top: 365px;
+}
+.shroombox {
+  width: 151px;
+  height: 44px;
+  background-color: #3b3b3b;
+  font-family: var(--wlight);
+}
+.shroomimg {
+  width: 24px;
+  height: 24px;
+}
+.mush-title {
+  font-family: var(--wsemi);
+  font-size: 51px;
+}
+#white-btn {
+  width: 198px;
+  height: 60px;
+}
+.eye {
+  width: 20px;
+  height: 20px;
+}
+#see-nft {
+  font-family: var(--wmed);
+}
+.shroom-right {
+  background-color: #3b3b3b80;
+  height: 147px;
+  width: 295px;
+  margin-top: 443px;
+}
+.auction {
+  font-size: 12px;
+  font-family: var(--sreg);
+  font-weight: 400;
+}
+.time {
+  width: 235px;
+  margin-left: 20px;
+}
+.auction-num {
+  font-family: var(--sbold);
+  font-size: 38px;
+}
+.how {
+  background-color: #3b3b3b;
+  height: 439px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+.header-3 {
+  font-family: var(--wmed);
+  font-size: 22px;
+  display: flex;
+  align-self: center;
+}
+.body-3 {
+  font-family: var(--wreg);
+  text-align: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+#same-card,
+#same-sec-card {
+  margin-right: 30px;
+}
+#container8 {
+  margin-top: 80px;
+}
+.box8 {
+  width: 1050px;
+  height: 430px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  padding-top: 60px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+#right-bottom {
+  padding-top: 20px;
+}
+.first-input {
+  width: 240px;
+}
+.first-input::placeholder {
+  font-family: var(--wreg);
+  color: #2b2b2b;
+}
+.sec-input::placeholder {
+  color: white;
+  font-family: var(--wmed);
+}
+.sec-input {
+  width: 211px;
+  background-color: #a259ff;
+  margin-left: -50px;
+  background-image: url(../images/email.png);
+  background-repeat: no-repeat;
+  background-position: 30% center;
+}
+#get {
+  max-width: 425px;
+}
+#join {
+  max-width: 325px;
+}
+#footer {
+  background-color: #3b3b3b;
+  padding: 40px 145px 0px 145px;
+  overflow-x: hidden;
+}
+.body-4 {
+  color: #cccccc;
+  font-family: var(--wlight);
+  font-size: 16px;
+}
+.icons {
+  width: 158px;
+  height: 32px;
+}
+.er-input {
+  width: 240px;
+}
+.er-input::placeholder {
+  font-family: var(--wreg);
+  color: #2b2b2b;
+}
+.foot-input {
+  width: 211px;
+  background-color: #a259ff;
+  margin-left: -50px;
+}
+.foot-input::placeholder {
+  color: white;
+  font-family: var(--wmed);
+}
+.hr {
+  border: 1px solid #858584;
+}
+
+@media screen and (max-width: 375px) {
+  .hr {
+    width: 330px;
+    position: absolute;
+    bottom: 40px;
+  }
+  #end {
+    position: absolute;
+    bottom: 0;
+  }
+
+  #footer {
+    width: 110%;
+    height: 776px;
+    padding: 0 60px 0 32px;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .er-input {
+    width: 315px;
+    height: 46px;
+    position: absolute;
+    bottom: 175px;
+    border-radius: 20px;
+  }
+  .foot-input {
+    width: 315px;
+    height: 46px;
+    position: absolute;
+    bottom: 100px;
+    left: 83px;
+    background-image: url(../images/email.png);
+    background-repeat: no-repeat;
+    background-position: 35% center;
+    border-radius: 20px;
+  }
+  .foot-input::placeholder {
+    margin-left: 55px;
+  }
+  #container8 {
+    height: 590px;
+    position: relative;
+    padding-left: 30px;
+  }
+  .first-input {
+    width: 315px;
+    height: 46px;
+    position: absolute;
+    bottom: 75px;
+    border-radius: 20px;
+  }
+  .sec-input {
+    width: 315px;
+    height: 46px;
+    position: absolute;
+    bottom: 0px;
+    left: 97.5px;
+    background-position: 35% center;
+    border-radius: 20px;
+  }
+  .sec-input::placeholder {
+    margin-left: 60px;
+  }
+  #join {
+    font-size: 28px;
+    margin-top: 37px;
+  }
+  #get {
+    font-size: 16px;
+  }
+  .box8 {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .astroimg {
+    width: 315px;
+    height: 255px;
+  }
+  .header-3 {
+    font-size: 16px;
+  }
+  .body-3 {
+    font-size: 12px;
+    text-align: start;
+  }
+  .how {
+    height: 157px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  #same-card {
+    margin-top: 0px !important;
+  }
+  .card-img {
+    width: 100px;
+    height: 100px;
+  }
+  #container6 {
+    height: 593px;
+    background-image: url(../images/bg-mush-phone.png);
+    padding-left: 30px;
+    margin: auto;
+  }
+  .shroom-left {
+    margin-top: 118px;
+  }
+  .shroom-right {
+    margin-top: 30px;
+  }
+  .mush-title {
+    display: flex;
+    font-size: 38px;
+    width: 250px;
+    height: 100%;
+  }
+  #white-btn {
+    width: 315px;
+    position: absolute;
+    bottom: 40px;
+  }
+  #last-thecard {
+    margin-bottom: 30%;
+  }
+  #container5 {
+    position: relative;
+    height: 100%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mycard {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+  .card-body-1 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard1.png);
+    background-repeat: none;
+  }
+  .card-body-2 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard2.png);
+    background-repeat: none;
+  }
+  .card-body-3 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard3.png);
+    background-repeat: none;
+  }
+  .card-body-4 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard4.png);
+    background-repeat: none;
+  }
+  .card-body-5 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard5.png);
+    background-repeat: none;
+  }
+  .card-body-6 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard6.png);
+    background-repeat: none;
+  }
+  .card-body-7 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard7.png);
+    background-repeat: none;
+  }
+  .card-body-8 {
+    width: 149px;
+    height: 142px;
+    background-image: url(../images/scard8.png);
+    background-repeat: none;
+  }
+  .mycard {
+    width: 150px;
+    height: 200px;
+  }
+  .hide-card {
+    display: none !important;
+  }
+  .mybox {
+    display: flex;
+    flex-direction: row;
+  }
+  .eth {
+    display: flex;
+    flex-direction: column;
+  }
+  .face-img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .name-eth {
+    text-align: start;
+  }
+  .card-number {
+    top: 10px;
+    left: 25px;
+  }
+  .card {
+    width: 315px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .total-eth {
+    margin-bottom: 10px;
+  }
+  #container3 {
+    position: relative;
+    height: 880px;
+  }
+  .twobtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 315px;
+    margin-left: 4%;
+  }
+  .diff-collection {
+    display: none !important;
+  }
+  .numbers {
+    width: 315px;
+  }
+  .header-2 {
+    font-size: 28px;
+  }
+  .body-2 {
+    font-size: 16px;
+  }
+  .header-1 {
+    font-size: 28px;
+    line-height: 39.2px;
+  }
+  .body-1 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  #right1 {
+    width: 315px;
+    height: 315px;
+    background-image: url(../images/spacewalkingSMALL.png);
+    margin-top: 25px !important;
+  }
+  #btn-two {
+    min-width: 315px;
+  }
+  .num {
+    font-size: 22px;
+  }
+  .undernum {
+    font-size: 16px;
+  }
+  #mycontainer {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-1 {
+    margin-left: 20px;
+  }
+  .body-1 {
+    margin-left: 20px;
+  }
+  .absolutebox {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+  }
+  #first-brand {
+    font-size: 17px;
+  }
+}

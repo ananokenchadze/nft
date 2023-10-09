@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg pt-md-4 pb-md-4 mt-3" class="main-containers">
+        <div class="container-fluid ps-5 pe-5 ">
+          <a class="navbar-brand text-white" id="first-brand" href="https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-nftmarket&utm_medium=figma-samples">
+            <img src="./assets/images/Storefront.png" class="mb-1">
+            NFT Marketplace
+          </a>
+          <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0 gap-5">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Marketplace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Rankings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Connect a wallet</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="button">
+              <button class="mybtn pt-3 pb-3 ps-2 pe-2 rounded-4 " type="submit">
+                <img src="./assets/images/User.png" class="me-1">
+                Sign Up
+                </button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="container position-relative" id="mycontainer" class="main-containers">
+        <div class="row justify-content-center ">
+            <div class="col-md-6 col-12 mt-5 d-flex flex-column ">
+                <p class="header-1 text-white col-md-11 col-12 ">Discover digital art & Collect NFTs</p>
+                <p class="body-1 text-white col-md-10 col-12">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+                <div class="absolutebox mt-5 ms-1">
+                  <button class="mybtn p-3 rounded-4 d-flex align-items-center justify-content-center gap-2" id="btn-two" type="submit">
+                    <img src="./assets/images/RocketLaunch.png">
+                    Get Started
+                  </button>
+                  <div class="numbers">
+                    <div class="d-flex justify-content-between mt-3 mb-5">
+                      <div class="d-flex flex-column text-white mt-4">
+                        <a class="num text-decoration-none text-white" href="#">240k+</a>
+                        <a class="undernum text-decoration-none text-white" href="#">Total Sale</a>
+                      </div>
+                      <div class="d-flex flex-column text-white mt-4">
+                        <a class="num text-decoration-none text-white" href="#">100k+</a>
+                        <a class="undernum text-decoration-none text-white" href="#">Auctions</a>
+                      </div>
+                      <div class="d-flex flex-column text-white mt-4">
+                        <a class="num text-decoration-none text-white" href="#">240k+</a>
+                        <a class="undernum text-decoration-none text-white" href="#">Artists</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 rounded-5 position-relative ms-2 mt-5 " id="right1">
+                <div class="position-absolute bottom-0 ps-3 pb-4">
+                    <a class="spacewalking text-white text-decoration-none" href="#">Space Walking</a>
+                    <div class="d-flex align-items-center gap-2 pt-2">
+                        <img src="./assets/images/animalkid.png">
+                        <a class="animalkid text-white text-decoration-none" href="#">Animakid</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5" id="container2" class="main-containers">
+      <div class="row">
+        <div class="col-12 d-flex flex-column">
+          <div id="trends" class="d-flex flex-column">
+            <a href="#" class="header-2 text-decoration-none text-white ms-4">Trending Collection</a>
+            <a href="#" class="body-2 text-decoration-none text-white ms-4">Checkout our weekly updated trending collection.</a>
+          </div>
+          <div class="d-flex mt-5 col-12 gap-3">
+            <div class="d-flex flex-column col-md-4 col-12 ms-2 mb-5">
+              <div class="d-flex flex-column align-items-center">
+                <img src="./assets/images/dog.png" class="bigpic">
+                <div class="d-flex gap-3 mt-3">
+                  <img src="./assets/images/squirrel.png" class="smallpic">
+                  <img src="./assets/images/bear.png" class="smallpic">
+                  <img src="./assets/images/1025.png" class="smallpic">
+                </div>
+              </div>
+              <div class="ps-5 mt-3">                
+                <a href="#" class="boxhead text-decoration-none text-white fs-5">DSGN Animals</a>
+                <div class="d-flex align-items-center gap-3 mt-2">
+                  <img src="./assets/images/mrfox.png">
+                  <a href="#" class=" text-decoration-none text-white fs-6 mb-1">Mr Fox</a>
+                </div>
+              </div>
+            </div>
+            <div class="diff-collection d-flex flex-column col-md-4 col-0">
+              <div class="d-flex flex-column align-items-center">
+                <img src="./assets/images/mush1.png" class="bigpic">
+                <div class="d-flex gap-3 mt-3">
+                  <img src="./assets/images/mush2.png" class="smallpic">
+                  <img src="./assets/images/mush3.png" class="smallpic">
+                  <img src="./assets/images/1025.png" class="smallpic">
+                </div>
+              </div>
+              <div class="ps-5 mt-3">                
+                <a href="#" class="boxhead text-decoration-none text-white fs-5">Magic Mushrooms</a>
+                <div class="d-flex align-items-center gap-3 mt-2">
+                  <img src="./assets/images/shroomie.png">
+                  <a href="#" class=" text-decoration-none text-white fs-6 mb-1">Shroomie</a>
+                </div>
+              </div>
+            </div>
+            <div class="diff-collection d-flex flex-column col-md-4 col-0">
+              <div class="d-flex flex-column align-items-center">
+                <img src="./assets/images/man1.png" class="bigpic">
+                <div class="d-flex gap-3 mt-3">
+                  <img src="./assets/images/man2.png" class="smallpic">
+                  <img src="./assets/images/man3.png" class="smallpic">
+                  <img src="./assets/images/1025.png" class="smallpic">
+                </div>
+              </div>
+              <div class="ps-5 mt-3">                
+                <a href="#" class="boxhead text-decoration-none text-white fs-5">Disco Machines </a>
+                <div class="d-flex align-items-center gap-3 mt-2">
+                  <img src="./assets/images/bekind.png">
+                  <a href="#" class=" text-decoration-none text-white fs-6 mb-1">Bekind2robots</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <div class="container mt-5" id="container3" class="main-containers">
+      <div class="row">
+          <div class="box mb-5 ps-5 pe-5" id="the-box">
+            <a href="#" class="header-2 text-decoration-none text-white ms-2">Top Creators</a>
+            <div class="d-flex justify-content-between align-items-baseline">
+              <a href="#" class="body-2 text-decoration-none text-white ms-2">Checkout Top Rated Creators on the NFT Marketplace</a>
+              <div class="col-md-3 ">
+                <div class="twobtn gap-2 rounded-4 pt-3 pb-3 pe-3  d-flex justify-content-center " id="view-rankings">
+                  <img src="./assets/images/purplerocket.png">
+                  <a href="#" class="text-decoration-none text-white">View Rankings</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center gap-5 mt-3 ps-4">
+            <div class="card mt-2 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n1.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face1.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Keepitreal</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-1 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n2.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face2.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Digilab</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-1 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n3.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face3.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">GravityOne</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-1 mb-md-1 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n4.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face4.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Juanie</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n5.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face5.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Bluewhale</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n6.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face6.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Mr Fox</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n7.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face7.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Shroomie</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n8.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face8.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Robotica</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n9.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face9.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">RusyRobot</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n10.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face10.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Animakid</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/n11.png" class="card-number position-absolute">
+                <div class="mybox mt-2">
+                  <img src="./assets/images/face11.png" class="face-img mb-3">
+                  <div class="d-flex flex-column text-center">
+                    <a href="#" class="name-eth text-decoration-none text-white fs-5">Dotgu</a>
+                    <div class="total-eth gap-1">
+                      <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                      <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card hide-card mt-3 rounded-4">
+            <div class="card-body">
+              <img src="./assets/images/n12.png" class="card-number position-absolute">
+              <div class="mybox mt-2">
+                <img src="./assets/images/face12.png" class="face-img mb-3">
+                <div class="d-flex flex-column text-center">
+                  <a href="#" class="name-eth text-decoration-none text-white fs-5">Ghiliber</a>
+                  <div class="total-eth gap-1">
+                    <a href="#" class="total-sales text-decoration-none fs-6 mb-1">Total Sales:</a>
+                    <a href="#" class="eth-num text-decoration-none text-white fs-6 mb-1">34.58 ETH</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="container pt-5 mt-5 mb-5" id="container4" class="main-containers">
+      <div class="row">
+        <a class="header-2 text-decoration-none text-white mb-5" id="inside" href="#" >Browse Categories</a>
+        <div class="d-flex flex-wrap gap-md-5 gap-3 align-items-center justify-content-center align-items-center">
+          <div class="mycard rounded-4">
+            <div class="card-body-1 ">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Art</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-2">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Collectibles</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-3">
+            </div>
+            <div class="card-footer  pb-md-3 ps-md-3 ps-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Music</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-4">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-md-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Photography</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-5">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Video</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-6">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Utility</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-7">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Sport</a>
+            </div>
+          </div>
+          <div class="mycard rounded-4">
+            <div class="card-body-8">
+            </div>
+            <div class="card-footer pb-md-3 ps-md-3 ps-md-2 pt-3">
+              <a href="#" class="body-1 text-decoration-none text-white">Visual Worlds</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5 pb-0" id="container5" class="main-containers">
+      <div class="row">
+        <div class="box mb-5" id="inbox">
+          <a href="#" class="header-2 text-decoration-none text-white ms-3">Discover More NFTs</a>
+          <div class="d-flex justify-content-between align-items-baseline">
+            <a href="#" class="body-2 text-decoration-none text-white ms-3">Explore new trending NFTs</a>
+            <div class="col-md-2">
+              <div class="twobtn gap-2 rounded-4 pt-3 pb-3 pe-3 ms-4 me-md-4 d-flex justify-content-center ">
+                <img src="./assets/images/purplerocket.png">
+                <a href="#" class="text-decoration-none text-white">See All</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center gap-5">
+            <div class="thecard mt-2 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/distantBIG.png">
+              </div>
+              <div class="card-footer p-3 pe-4">
+                <div class=" ps-3 pb-4">
+                  <a class="spacewalking text-white text-decoration-none" href="#">Distant Galaxy</a>
+                  <div class="d-flex align-items-center gap-2 pt-2">
+                      <img src="./assets/images/moondancer.png">
+                      <a class="nft-name text-white text-decoration-none" href="#">MoonDancer</a>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column mt-3">
+                      <a href="#" class="price text-decoration-none mb-2">Price</a>
+                      <a href="#" class="price-2 text-decoration-none text-white">1.63 ETH</a>
+                    </div>
+                    <div class="d-flex flex-column mt-3">
+                      <a href="#" class="price text-decoration-none mb-2 text-end">Highest Bid</a>
+                      <a href="#" class="price-2 text-decoration-none text-white text-end">0.33 wETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="thecard mt-2 rounded-4">
+              <div class="card-body">
+                <img src="./assets/images/lifeBIG.png">
+              </div>
+              <div class="card-footer p-3 pe-4">
+                <div class=" ps-3 pb-4">
+                  <a class="spacewalking text-white text-decoration-none" href="#">Life On Edena</a>
+                  <div class="d-flex align-items-center gap-2 pt-2">
+                      <img src="./assets/images/nebulakid.png">
+                      <a class="nft-name text-white text-decoration-none" href="#">Nebulakid</a>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column mt-3">
+                      <a href="#" class="price text-decoration-none mb-2">Price</a>
+                      <a href="#" class="price-2 text-decoration-none text-white">1.63 ETH</a>
+                    </div>
+                    <div class="d-flex flex-column mt-3">
+                      <a href="#" class="price text-decoration-none mb-2 text-end">Highest Bid</a>
+                      <a href="#" class="price-2 text-decoration-none text-white text-end">0.33 wETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="thecard mt-2 rounded-4" id="last-thecard">
+              <div class="card-body">
+                <img src="./assets/images/astroBIG.png">
+              </div>
+              <div class="card-footer p-3 pe-4">
+                <div class=" ps-3 pb-4">
+                  <a class="spacewalking text-white text-decoration-none" href="#">AstroFiction</a>
+                  <div class="d-flex align-items-center gap-2 pt-2">
+                      <img src="./assets/images/spaceone.png">
+                      <a class="nft-name text-white text-decoration-none" href="#">Spaceone</a>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column mt-3">
+                      <a href="#" class="price text-decoration-none mb-2">Price</a>
+                      <a href="#" class="price-2 text-decoration-none text-white">1.63 ETH</a>
+                    </div>
+                    <div class="d-flex flex-column mt-3">
+                      <a href="#" class="price text-decoration-none mb-2 text-end">Highest Bid</a>
+                      <a href="#" class="price-2 text-decoration-none text-white text-end">0.33 wETH</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container-fluid position-relative" id="container6">
+      <div class="row ps-md-5 pe-md-5">
+        <div class="hundred d-flex">
+          <div class="col-md-8">
+            <div class="shroom-left">
+              <div class="shroombox d-flex rounded-5 align-items-center justify-content-center gap-2 mb-3">
+                <img src="./assets/images/shroomie.png" class="shroomimg">
+                <a href="#" class="text-decoration-none text-white">Shroomie</a>
+              </div>
+              <a href="#" class="mush-title text-decoration-none text-white ">Magic Mashrooms</a>
+              <div class="btn bg-white d-flex rounded-4 align-items-center justify-content-center gap-2 mt-4" id="white-btn">
+                <img src="./assets/images/eye.png" class="eye">
+                <a href="#" class="text-decoration-none text-black" id="see-nft">See NFT</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="shroom-right rounded-4 p-3 pt-4 ">
+              <a href="#" class="auction text-decoration-none text-white ms-4">Auction ends in:</a>
+              <div class="time d-flex">
+                <a href="#" class="auction-num text-decoration-none text-white">59</a>
+                <a href="#" class="auction-num text-decoration-none text-white me-2 ms-2">:</a>
+                <a href="#" class="auction-num text-decoration-none text-white">59</a>
+                <a href="#" class="auction-num text-decoration-none text-white me-2 ms-2">:</a>
+                <a href="#" class="auction-num text-decoration-none text-white">59</a>
+              </div>
+              <div class="time d-flex justify-content-between">
+                <a href="#" class="auction text-decoration-none text-white ms-1">Hours</a>
+                <a href="#" class="auction text-decoration-none text-white ms-2">Minutes</a>
+                <a href="#" class="auction text-decoration-none text-white me-3">Seconds</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="container7" class="main-containers">
+      <div class="row">
+        <div id="howit" class="d-flex flex-column">
+          <a href="#" class="header-2 text-decoration-none text-white ms-5">How It Works</a>
+          <a href="#" class="body-2 text-decoration-none text-white ms-5">Find Out How To Get Started</a>
+        </div>
+        <div class="box7 d-flex flex-wrap justify-content-evenly mt-5 gap-md-5">
+          <div class="col-md-3 col-12">
+            <div class="how rounded-4 align-items-center" id="same-card">
+              <div class="card-header p-2">
+                <img src="./assets/images/how-one.png" class="card-img">
+              </div>
+              <div class="card-body ps-4 pe-4">
+                <a href="#" class="header-3 text-decoration-none text-white mb-1">Set Up Your Wallet</a>
+                <a href="#" class="body-3 text-decoration-none text-white">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="how rounded-4  align-items-center" id="same-sec-card">
+              <div class="card-header p-2">
+                <img src="./assets/images/how-2.png" class="card-img">
+              </div>
+              <div class="card-body ps-4 pe-4">
+                <a href="#" class="header-3 text-decoration-none text-white mb-1">Create Collection</a>
+                <a href="#" class="body-3 text-decoration-none text-white ">Upload your work and setup your collection. Add a description, social links and floor price.</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12">
+            <div class="how rounded-4 align-items-center">
+              <div class="card-header p-2">
+                <img src="./assets/images/how-3.png" class="card-img">
+              </div>
+              <div class="card-body  ps-4 pe-4">
+                <a href="#" class="header-3 text-decoration-none text-white mb-1">Start Earning</a>
+                <a href="#" class="body-3 text-decoration-none text-white ">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="container" id="container8" class="main-containers">
+      <div class="row justify-content-center">
+        <div class="box8 ">
+          <div class="col-md-6 col-12">
+            <img src="./assets/images/astronaut.png" class="astroimg">
+          </div>
+          <div class="col-md-6 col-12" >
+            <div class="d-flex flex-column" >
+              <a href="#" class="header-2 text-decoration-none text-white mb-2" id="join">Join our weekly digest</a>
+              <a href="#" class="body-2 text-decoration-none text-white" id="get">Get exclusive promotions & updates straight to your inbox.</a>
+              <div class="d-flex mt-4">
+                <form class="myform-1">
+                  <input type="email" placeholder="Enter your email here" class="first-input border-0 rounded-4 p-3">
+                </form>
+                <form class="secform">
+                  <input placeholder="Subscribe"  class="sec-input border-0 rounded-4 p-3 text-end pe-5" type="button">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-5 pt-5" id="footer">
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <div class="d-flex flex-column pb-4 " id="last-div">
+            <a class="navbar-brand text-white" href="https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-nftmarket&utm_medium=figma-samples">
+              <img src="./assets/images/Storefront.png" class="mb-1">
+              NFT Marketplace
+            </a>
+            <a href="#" class="body-4 text-decoration-none mt-3">NFT marketplace UI created with Anima for Figma.</a>
+            <a href="#" class="body-4 text-decoration-none mt-3 mb-3">Join our community</a>
+            <img src="./assets/images/icons.png" class="icons">
+          </div>
+        </div>
+        <div class="col-md-3 col-12">
+          <div class="d-flex flex-column pb-4  ps-md-4" id="last-div">
+            <a class="navbar-brand text-white">Explore</a>
+            <a href="#" class="body-4 text-decoration-none mt-3">Marketplace</a>
+            <a href="#" class="body-4 text-decoration-none mt-3">Rankings</a>
+            <a href="#" class="body-4 text-decoration-none mt-3">Connect a wallet</a>
+          </div>
+        </div>
+        <div class="col-md-5 col-12">
+          <div class="d-flex flex-column pb-4 " id="last-div">
+            <a class="navbar-brand text-white">Join our weekly digest</a>
+            <a href="#" class="body-4 text-decoration-none mt-3">Get exclusive promotions & updates straight to your inbox.</a>              <div class="d-flex mt-4">
+              <form class="myform-1">
+                <input type="email" placeholder="Enter your email here" class="er-input border-0 rounded-4 p-3">
+              </form>
+              <form class="secform">
+                <input placeholder="Subscribe" class="foot-input border-0 rounded-4 p-3 text-end pe-5">
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr class="hr">
+        <a href="#"class="body-4 text-decoration-none mt-3 mb-4" id="end">Ⓒ NFT Market. Use this template freely.</a>
+      </div>
+    </div>
+</body>
+</html>
